@@ -9,12 +9,12 @@ const timelineEvents = [
     {
         phase: "Phase 02",
         title: "Build Phase",
-        desc: "Starts 16 Feb 2026. Intense engineering and execution."
+        desc: "Intense engineering and execution till 15 Feb."
     },
     {
         phase: "Phase 03",
         title: "Deployment & Pitch",
-        desc: "Submit operational prototypes for evaluation."
+        desc: "16 Feb 2026. Submit operational prototypes for evaluation."
     },
 ];
 
