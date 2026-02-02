@@ -19,7 +19,7 @@ const unifraktur = UnifrakturMaguntia({
 });
 
 export const metadata: Metadata = {
-  title: "Build.in | b4cktr4c3",
+  title: "Build.it | b4cktr4c3",
   description: "An elite engineering competition by the b4cktr4c3 community. Build fast. Think deep. Execute harder.",
 };
 

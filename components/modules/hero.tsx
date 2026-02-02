@@ -34,17 +34,18 @@ export const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 border border-red-900/30 bg-red-900/10 rounded-full text-red-500 font-mono text-xs tracking-widest uppercase">
-                        <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-                        Incoming Transmission
+                    <div className="mb-6">
+                        <span className="font-mono text-xl md:text-2xl text-white tracking-widest">
+                            {"{"}b4cktr4c3{"}"} PRESENTS
+                        </span>
                     </div>
 
                     <h1 className="font-sans font-black text-6xl md:text-9xl tracking-tighter mb-4 text-white">
-                        BUILD<span className="text-accent">.IN</span>
+                        BUILD<span className="text-accent">.IT</span>
                     </h1>
 
                     <p className="font-mono text-lg md:text-xl text-neutral-400 mb-8 max-w-2xl mx-auto">
-                        An elite engineering competition by <span className="text-white font-bold">b4cktr4c3</span>.
+                        An elite engineering competition by <span className="text-white font-bold">{"{"}b4cktr4c3{"}"}</span>.
                         <br />
                         <span className="text-white/80">Build fast. Think deep. Execute harder.</span>
                     </p>

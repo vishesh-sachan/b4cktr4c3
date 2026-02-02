@@ -11,7 +11,7 @@ export const EventOverview = () => {
                         The <span className="text-accent">Protocol</span>
                     </h2>
                     <p className="text-lg text-neutral-400 mb-6 leading-relaxed">
-                        BUILD.IN is not your standard college event. It is a competition designed to test
+                        BUILD.IT is not your standard college event. It is a competition designed to test
                         <span className="text-white font-medium"> sheer execution capability</span>.
                     </p>
                     <p className="text-lg text-neutral-400 mb-8 leading-relaxed">
