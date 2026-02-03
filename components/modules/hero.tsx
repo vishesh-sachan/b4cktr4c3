@@ -11,8 +11,7 @@ export const Hero = () => {
     };
 
     const scrollToRegister = () => {
-        // Placeholder for registration link
-        console.log("Register clicked");
+        window.open('https://forms.gle/E4aqDhmoT8DWFzBx9', '_blank');
     };
 
     return (
@@ -41,7 +40,7 @@ export const Hero = () => {
                     </div>
 
                     <h1 className="font-sans font-black text-6xl md:text-9xl tracking-tighter mb-4 text-white">
-                        BUILD<span className="text-accent">.IT</span>
+                        BUILD<span className="text-accent">:IT</span>
                     </h1>
 
                     <p className="font-mono text-lg md:text-xl text-neutral-400 mb-8 max-w-2xl mx-auto">

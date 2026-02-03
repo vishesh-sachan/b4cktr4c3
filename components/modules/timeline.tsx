@@ -29,7 +29,7 @@ export const Timeline = () => {
 
             <div className="max-w-3xl mx-auto relative">
                 {/* Center Line */}
-                <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-neutral-800 md:-ml-px pl-6 md:pl-0"></div>
+                <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-neutral-800 md:-ml-px md:pl-0"></div>
 
                 <div className="space-y-12">
                     {timelineEvents.map((t, i) => (
