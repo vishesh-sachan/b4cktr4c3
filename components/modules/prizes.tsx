@@ -24,7 +24,7 @@ export const Prizes = () => {
                 <Card variant="outline" className="text-center group hover:border-accent/50">
                     <Award className="w-10 h-10 text-neutral-500 mx-auto mb-6 group-hover:text-blue-400 transition-colors" />
                     <h3 className="text-2xl font-bold text-white mb-2">Recognition</h3>
-                    <p className="font-mono text-white/80 text-lg">Certificates & Merch</p>
+                    <p className="font-mono text-white/80 text-lg">Certificates</p>
                     <p className="text-neutral-500 text-sm mt-4">
                         Proof of work for every finalist.
                     </p>
@@ -35,7 +35,7 @@ export const Prizes = () => {
                     <h3 className="text-2xl font-bold text-white mb-2">Opportunities</h3>
                     <p className="font-mono text-white/80 text-lg">Network Access</p>
                     <p className="text-neutral-500 text-sm mt-4">
-                        Direct intros to b4cktr4c3 partners.
+                        Direct intros to b4cktr4c3 members.
                     </p>
                 </Card>
             </div>

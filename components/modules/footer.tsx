@@ -16,9 +16,9 @@ export const Footer = () => {
                             Organized by the b4cktr4c3 community
                         </div>
 
-                        <div className="flex items-center gap-6">
+                        {/* <div className="flex items-center gap-6"> */}
                             {/* Social placehlders */}
-                            <a href="#" className="text-neutral-500 hover:text-white transition-colors">
+                            {/* <a href="#" className="text-neutral-500 hover:text-white transition-colors">
                                 <Twitter size={20} />
                             </a>
                             <a href="#" className="text-neutral-500 hover:text-white transition-colors">
@@ -26,8 +26,8 @@ export const Footer = () => {
                             </a>
                             <a href="mailto:contact@b4cktr4c3.com" className="text-neutral-500 hover:text-white transition-colors">
                                 <Mail size={20} />
-                            </a>
-                        </div>
+                            </a> */}
+                        {/* </div> */}
 
                         <div className="font-mono text-xs text-neutral-600">
                             © {new Date().getFullYear()} Build.exe
