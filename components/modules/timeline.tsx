@@ -4,7 +4,7 @@ const timelineEvents = [
     {
         phase: "Phase 01",
         title: "Registration",
-        desc: "Open till 10 Feb 2026. Secure your slot."
+        desc: "Open till 12 Feb 2026. Secure your slot."
     },
     {
         phase: "Phase 02",
@@ -35,7 +35,7 @@ export const Timeline = () => {
                     {timelineEvents.map((t, i) => (
                         <div key={i} className={`relative flex flex-col items-start md:flex-row ${i % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
                             {/* Dot */}
-                            <div className="border-accent absolute left-[3px] z-10 mt-1.5 h-4 w-4 rounded-full border-2 bg-black md:left-1/2 md:-ml-2"></div>
+                            <div className="border-accent left-0.75 absolute z-10 mt-1.5 h-4 w-4 rounded-full border-2 bg-black md:left-1/2 md:-ml-2"></div>
 
                             {/* Content Space */}
                             <div className="pl-8 md:w-1/2 md:pl-0 md:pr-12 md:text-right"></div>

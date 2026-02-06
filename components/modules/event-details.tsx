@@ -16,7 +16,7 @@ const Details = [
     {
         icon: <Users className="text-accent h-6 w-6" />,
         label: "Team Size",
-        value: "Max 3 Members"
+        value: "Max 5 Members"
     },
     {
         icon: <Layers className="text-accent h-6 w-6" />,
